@@ -35,7 +35,7 @@ export default function AddCarPage() {
     };
 
     axios
-      .post("https://urbancars-app2.onrender.com/cars", newCar)
+      .post("https://urbancars-app2.onrender.com/Api/cars", newCar)
       .then((response) => {
         toast.success("Car added successfully!");
         navigate("/cars");
