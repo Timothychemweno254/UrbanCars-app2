@@ -1,0 +1,313 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "name": "Porsche 718 Cayman GTS 40",
+      "price": "Ksh 10,000/day",
+      "image": "https://i.postimg.cc/L4qzgxkk/posche-ext.png",
+      "images": [
+        "https://i.postimg.cc/130XNqYr/porsche-int.png",
+        "https://i.postimg.cc/L4qzgxkk/posche-ext.png"
+      ],
+      "description": "The 2017 Porsche 718 lineup ranges from the 300 HP 2.0L turbocharged base model (7.4–8.2 L/100km) to the 493 HP 4.0L naturally aspirated GT4 RS (11.2–12.5 L/100km), with all models being strict two-seaters designed for thrilling performance and driver-focused dynamics..",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": "",
+      "underMaintenance": false,
+      "status": "available",
+      "booking": null
+    },
+    {
+      "id": "2",
+      "name": "Land Cruiser V8 2016 XZ",
+      "price": "18000",
+      "image": "https://i.postimg.cc/1RNq3fPJ/v8-ext.png",
+      "images": [
+        "https://i.postimg.cc/LXgn5bdn/v8-int.png",
+        "https://i.postimg.cc/1RNq3fPJ/v8-ext.png"
+      ],
+      "description": "The 2016 Land Cruiser V8 ZX cossets you in hand-stitched leather, quad-zone climate control, and silent armor-plated refinement—all while its 4.5L twin-turbo diesel V8 (272 HP)  conquers continents at 10.5–13.8 L/100km. A fortress on wheels where brute capability meets CEO lounge.",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": "",
+      "underMaintenance": false,
+      "booking": null
+    },
+    {
+      "id": "4",
+      "name": "2023 TOYOTA Helux GR",
+      "price": "Ksh 15,000/day",
+      "image": "https://i.postimg.cc/nVgcMkTD/helux-ext.png",
+      "images": [
+        "https://i.postimg.cc/26JmbkdD/helux-int.png",
+        "https://i.postimg.cc/nVgcMkTD/helux-ext.png"
+      ],
+      "description": "The 2023 Hilux GR Sport slams a 2.8L turbo-diesel (201 HP/500 Nm) into a Baja-tough chassis, wrapped in GR-badged aggression—Bilstein dampers, Recaro bucket seats, and red-stitched defiance. It scoffs at 10.5 L/100km while out-dirting luxury SUVs at half the price.",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": "",
+      "underMaintenance": false
+    },
+    {
+      "id": "5",
+      "name": "Lexus RX450 H Hybrid",
+      "price": "Ksh 18,000/day",
+      "image": "https://i.postimg.cc/rp08NRfH/lexus2-ext.png",
+      "images": [
+        "https://i.postimg.cc/br8pPCqX/lexus2-int.png",
+        "https://i.postimg.cc/rp08NRfH/lexus2-ext.png"
+      ],
+      "description": "The Lexus RX 450h Hybrid blends a 3.5L V6 + electric motors (308 HP) with samurai-silent refinement, coddling passengers in semi-aniline leather while sipping just 6.7 L/100km (35 MPG). A tech-laden sanctuary with Mark Levinson audio, climate-controlled seats, and enough serenity to make a Zen monk jealous.",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": "",
+      "underMaintenance": false
+    },
+    {
+      "id": "6",
+      "name": "Land Cruiser Prado TXZ (TZG)",
+      "price": "Ksh 20,000/day",
+      "image": "https://i.postimg.cc/1t01vGwv/prado-tzg-ext.png",
+      "images": [
+        "https://i.postimg.cc/RVp5pVJx/prado-tzg-int.png",
+        "https://i.postimg.cc/1t01vGwv/prado-tzg-ext.png"
+      ],
+      "description": "The Toyota Land Cruiser Prado TXZ (TZG) wraps full-leather captain’s chairs, wood-accented opulence, and tri-zone climate control around a 2.8L turbo-diesel (204 HP/500 Nm) or 4.0L V6 (282 HP) heart—conquering trails at 8.5–10.3 L/100km while coddling passengers like a mobile five-star lodge.",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": "",
+      "underMaintenance": false
+    },
+    {
+      "id": "7",
+      "name": "2024 Marcedez Benz E200",
+      "price": "Ksh 14,000/day",
+      "image": "https://i.postimg.cc/3RTP0kVm/benz-e200-ext.png",
+      "images": [
+        "https://i.postimg.cc/j2qmvGsj/Benz-E200-int.png",
+        "https://i.postimg.cc/3RTP0kVm/benz-e200-ext.png"
+      ],
+      "description": "The 2024 Mercedes-Benz E 200 blends mild-hybrid efficiency (1.5L turbo + EQ Boost / 204 HP) with bank-vault silence, swathing drivers in Nappa leather, ambient-lit opulence, and self-parking wizardry—all while sipping just 6.1 L/100km (46 MPG).",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": "",
+      "underMaintenance": false
+    },
+    {
+      "id": "8",
+      "name": "BMW X5 (2024)",
+      "price": "Ksh 13,000/day",
+      "image": "https://i.postimg.cc/5N0Dzd77/BMW-X5-ext.png",
+      "images": [
+        "https://i.postimg.cc/7Z11Yb3p/BMW-X5int.png",
+        "https://i.postimg.cc/5N0Dzd77/BMW-X5-ext.png"
+      ],
+      "description": "The 2024 BMW X5 balances a 3.0L turbocharged inline-6 (375 HP)  in the X5 M60i) with Merino leather-wrapped indulgence, crystal gearshift theatrics, and self-leveling air suspension—all while delivering 9.1–12.3 L/100km depending on your right foot’s enthusiasm.",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": "",
+      "booking": {
+        "name": "timothy",
+        "endTime": "2025-04-23T19:46:53.179Z"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Mazda CX5",
+      "price": "Ksh 25,000/day",
+      "image": "https://i.postimg.cc/BQH7HS5C/Cx5-ext.png",
+      "images": [
+        "https://i.postimg.cc/BQH7HS5C/Cx5-ext.png",
+        "https://i.postimg.cc/BQH7HS5C/Cx5-ext.png"
+      ],
+      "description": "The 2024 Mazda CX-5 merges 2.5L SkyActiv-G (187–256 HP) with Kodo design elegance, swathing drivers in Nappa leather, Bose 10-speaker audio, and Japanese minimalist luxury—all while sipping a modest 7.8–9.0 L/100km (30–26 MPG).",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": ""
+    },
+    {
+      "id": "10",
+      "name": "SUBARU Forester XT",
+      "price": "Ksh 16,000/day",
+      "image": "https://i.postimg.cc/8PRwsyDK/SUBARU-Xt-int.png",
+      "images": [
+        "https://i.postimg.cc/XJBkWLQg/SUBARU-XT-int.png",
+        "https://i.postimg.cc/8PRwsyDK/SUBARU-Xt-int.png"
+      ],
+      "description": "The Subaru Forester XT stuffs a 2.0L turbocharged Boxer-4 (250 HP) into its no-nonsense shell, pairing rally-bred Symmetrical AWD with 8.2 L/100km (29 MPG) efficiency—all while offering 5.8 seconds 0-100 km/h urgency and dog-friendly vinyl seats.",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": "",
+      "underMaintenance": false
+    },
+    {
+      "id": "11",
+      "name": "BMW I8",
+      "price": "30000",
+      "image": "https://i.postimg.cc/5295ybsy/BMW-I8-ext.png",
+      "images": [
+        "https://i.postimg.cc/TPprjQMX/BMW-I8-int.png",
+        "https://i.postimg.cc/5295ybsy/BMW-I8-ext.png"
+      ],
+      "description": ".The BMW i8 fused a 1.5L turbo 3-cylinder (228 HP) + electric motor (131 HP) into a carbon-fiber spaceship body, delivering 357 combined HP, 2.6L/100km (90 MPGe) efficiency, and 4.4-second 0-100 km/h thrills—all while looking like it time-traveled from 2030",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": ""
+    },
+    {
+      "id": "12",
+      "name": "Audi A4",
+      "price": "Ksh 9,000/day",
+      "image": "https://i.postimg.cc/YCyFSg4D/Audi-A-4-EXT.png",
+      "images": [
+        "https://i.postimg.cc/BvLKP6HS/Audi-A4-int.png",
+        "https://i.postimg.cc/YCyFSg4D/Audi-A-4-EXT.png"
+      ],
+      "description": "The 2024 Audi A4 balances a 2.0L TFSI turbo (261 HP)  with Quattro AWD grip, swathing drivers in Valcona leather, virtual cockpit tech, and bank-vault refinement—all while delivering 6.3–4.5 L/100km (37–52 MPG).",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": ""
+    },
+    {
+      "id": "13",
+      "name": "Honda sedan civic",
+      "price": "Ksh 7,500/day",
+      "image": "https://i.postimg.cc/qM1hmnGB/honda-sedan-ext.png",
+      "images": [
+        "https://i.postimg.cc/W3chD7s8/honda-sedan-int.png",
+        "https://i.postimg.cc/qM1hmnGB/honda-sedan-ext.png"
+      ],
+      "description": "Honda sedans blend bulletproof 1.5L (130 HP) or turbo 1.5L (180 HP) engines with magic-seat practicality, delivering 5.2–6.7 L/100km (45–35 MPG) efficiency in packages ranging from the entry-friendly City to the tech-loaded Accord Hybrid.",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": ""
+    },
+    {
+      "id": "14",
+      "name": "Toyota Axio XP150 ",
+      "price": "Ksh 8,500/day",
+      "image": "https://i.postimg.cc/nVkCz7gK/Toyota-Axio-ext.png",
+      "images": [
+        "https://i.postimg.cc/rmTwyF9Y/toyota-AXIO-int.png",
+        "https://i.postimg.cc/nVkCz7gK/Toyota-Axio-ext.png"
+      ],
+      "description": "The Toyota Axio XP150 pairs a 1.5L 1NZ-FE (109 HP) or 1.3L (95 HP) engine with bulletproof simplicity, delivering 5.1–5.8 L/100km (55–49 MPG) efficiency with Apple CarPlay .",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": ""
+    },
+    {
+      "id": "15",
+      "name": "Toyota Hiace",
+      "price": "Ksh 8,200/day",
+      "image": "https://i.postimg.cc/ZRJJtsTG/HIace-ext.png",
+      "images": [
+        "https://i.postimg.cc/DySnTXTw/HIace-int.png",
+        "https://i.postimg.cc/ZRJJtsTG/HIace-ext.png"
+      ],
+      "description": "The Toyota HiAce crams 3.0L turbodiesel (176 HP) or 2.7L  power into a bombproof steel shell, hauling 12 passengers or 3.5 tonnes of cargo at 7.5–9.2 L/100km (31–26 MPG) while outlasting civilizations.",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": ""
+    },
+    {
+      "id": "16",
+      "name": "2016 Toyota Voxy Hybrid ",
+      "price": "Ksh 9,500/day",
+      "image": "https://i.postimg.cc/wjK8Y42w/voxy-ext.png",
+      "images": [
+        "https://i.postimg.cc/qRvWxPBv/Voxy-int.png",
+        "https://i.postimg.cc/wjK8Y42w/voxy-ext.png"
+      ],
+      "description": "The 2016 Toyota Voxy Hybrid combines a 2.4L 2AZ-FXE (150 HP) + electric motor hybrid system with sliding-door convenience, delivering 5.2 L/100km (45 MPG) efficiency while seating 8 in airport-shuttle comfort. A box on wheels that prioritizes kid-hauling logic over flash, with dual sunroofs and refrigerated storage for hot summers.",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": ""
+    },
+    {
+      "id": "17",
+      "name": "2019 Ford Ranger",
+      "price": "Ksh 7,000/day",
+      "image": "https://i.postimg.cc/MKQN5bwV/ranger-ext.png",
+      "images": [
+        "https://i.postimg.cc/bYtfVjHZ/ranger-int.png",
+        "https://i.postimg.cc/MKQN5bwV/ranger-ext.png"
+      ],
+      "description": "The 2019 Ford Ranger with a 2.3L EcoBoost turbo (270 HP / 310 lb-ft), a 7,500-lb towing capacity, and Terrain Management 4WD, packaged in a chassis that chews through job sites at 10.2 L/100km (23 MPG) while coddling drivers with SYNC 3 tech and 10-speed auto smoothness.",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": ""
+    },
+    {
+      "id": "18",
+      "name": "Toyota Fielder",
+      "price": "Ksh 8,000/day",
+      "image": "https://i.postimg.cc/J0bgrMPK/fielder-ext.png",
+      "images": [
+        "https://i.postimg.cc/8z18Cf8v/Fielder.png",
+        "https://i.postimg.cc/J0bgrMPK/fielder-ext.png"
+      ],
+      "description": "The Toyota Fielder packs 1.5L (109 HP) or 1.8L hybrid (122 HP) power into a station wagon silhouette, delivering 4.5–5.8 L/100km (52–41 MPG) efficiency while swallowing bikes, IKEA hauls, or surfboards with magic-seat flexibility.",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": ""
+    },
+    {
+      "id": "19",
+      "name": "2016 Toyota Harrier (XU60) ",
+      "price": "Ksh 11,000/day",
+      "image": "https://i.postimg.cc/nhdWcdG8/harrier-ext.png",
+      "images": [
+        "https://i.postimg.cc/3RGf1357/harrier-int.png",
+        "https://i.postimg.cc/nhdWcdG8/harrier-ext.png"
+      ],
+      "description": "The 2016 Toyota Harrier (XU60) wraps a 2.0L turbo (231 HP) or 2.5L hybrid (197 HP) in a Lexus RX-inspired silhouette, gliding through cities at 5.8–7.2 L/100km (41–33 MPG).",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": ""
+    },
+    {
+      "id": "20",
+      "name": "2016 Toyota Probox",
+      "price": "Ksh 10,500/day",
+      "image": "https://i.postimg.cc/4NPLB8MK/probox-ext.png",
+      "images": [
+        "https://i.postimg.cc/pdhsVPd8/probox-int.png",
+        "https://i.postimg.cc/4NPLB8MK/probox-ext.png"
+      ],
+      "description": "The 2016 Toyota Probox stuffs a 1.3L (87 HP) or 1.5L (109 HP) engine into a plastic-lined toolbox on wheels, delivering 5.5–6.2 L/100km (43–38 MPG) efficiency while hauling 600kg of cargo, tools, or contraband produce across potholes that would kill lesser vans.",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": ""
+    },
+    {
+      "id": "21",
+      "name": "LEXUS LX-570",
+      "price": "Ksh 18,500/day",
+      "image": "https://i.postimg.cc/brTTVJ6X/LEXUS-ext.png",
+      "images": [
+        "https://i.postimg.cc/CMNsgR4X/lexus-int.png",
+        "https://i.postimg.cc/brTTVJ6X/LEXUS-ext.png"
+      ],
+      "description": "The 2016 Lexus LX 570 pampers with semi-aniline leather thrones, hand-sanded wood trim, and a Mark Levinson 19-speaker symphony, all while its 5.7L naturally aspirated V8 (383 HP/403 lb-ft) devours dunes at 16.8 L/100km (14 MPG). Seven seats, hydraulic suspension, and a silent, climate-controlled vault on wheels—this is royalty with a tow hitch.",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": ""
+    },
+    {
+      "id": "22",
+      "name": "Porsche Panamera ",
+      "price": "Ksh 12,000/day",
+      "image": "https://i.postimg.cc/wvzDKzR9/panamera-ext.png",
+      "images": [
+        "https://i.postimg.cc/rsn4ttnp/panamera.png",
+        "https://i.postimg.cc/wvzDKzR9/panamera-ext.png"
+      ],
+      "description": "The Porsche Panamera fuses 3.0L V6 (330 HP) to 4.0L twin-turbo V8 (630 HP) power with hand-stitched Nappa leather, adaptive air suspension, and PDK lightning shifts, rocketing to 100 km/h in 3.1–5.5 seconds while cradling four adults in 18-way massaging seats. A 5m-long grand tourer that corners like a 911 and sips fuel like a CEO.",
+      "isBooked": false,
+      "bookedBy": "",
+      "returnTime": "",
+      "underMaintenance": false
+    }
+  ]
+}
