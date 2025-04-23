@@ -36,7 +36,7 @@ const CarDetailPage = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3001/cars/${id}`)
+      .get(`https://urbancars-app2.onrender.com/Api/cars/${id}`)
       .then((response) => {
         setCar(response.data);
         setIsLoading(false);
@@ -116,7 +116,7 @@ const CarDetailPage = () => {
     e.preventDefault();
 
     axios
-      .put(`http://localhost:3001/cars/${id}`, car)
+      .put(`https://urbancars-app2.onrender.com/Api/cars/${id}`, car)
       .then(() => {
         setIsEditing(false);
         toast.success('Car details updated successfully!', {
@@ -178,7 +178,7 @@ const CarDetailPage = () => {
   const confirmDelete = () => {
     setIsDeleting(true);
     axios
-      .delete(`http://localhost:3001/cars/${id}`)
+      .delete(`https://urbancars-app2.onrender.com/Api/cars/${id}`)
       .then(() => {
         toast.success(`${car.name} deleted successfully!`, {
           position: "top-center",
@@ -231,7 +231,7 @@ const CarDetailPage = () => {
     };
     
     axios
-      .put(`http://localhost:3001/cars/${id}`, updatedCar)
+      .put(`https://urbancars-app2.onrender.com/Api/cars/${id}`, updatedCar)
       .then(() => {
         setCar(updatedCar);
         setTimeLeft(bookingData.minutes * 60);
@@ -272,7 +272,7 @@ const CarDetailPage = () => {
     };
     
     axios
-      .put(`http://localhost:3001/cars/${id}`, updatedCar)
+      .put(`https://urbancars-app2.onrender.com/Api/cars/${id}`, updatedCar)
       .then(() => {
         setCar(updatedCar);
         setShowHireForm(false);
@@ -307,7 +307,7 @@ const CarDetailPage = () => {
     };
     
     axios
-      .put(`http://localhost:3001/cars/${id}`, updatedCar)
+      .put(`https://urbancars-app2.onrender.com/Api/cars/${id}`, updatedCar)
       .then(() => {
         setCar(updatedCar);
         setTimeLeft(0);
@@ -342,7 +342,7 @@ const CarDetailPage = () => {
     };
     
     axios
-      .put(`http://localhost:3001/cars/${id}`, updatedCar)
+      .put(`https://urbancars-app2.onrender.com/Api/cars/${id}`, updatedCar)
       .then(() => {
         setCar(updatedCar);
         toast.success('Hire cancelled successfully!', {

@@ -11,7 +11,7 @@ const CarForm = ({ addCar }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:3001/cars", {
+    fetch("https://urbancars-app2.onrender.com/cars", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),

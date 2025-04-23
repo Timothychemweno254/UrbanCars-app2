@@ -10,7 +10,7 @@ const CarsPage = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:3001/cars')
+      .get('https://urbancars-app2.onrender.com/Api/cars')
       .then((response) => {
         setCars(response.data);
         setFilteredCars(response.data);
