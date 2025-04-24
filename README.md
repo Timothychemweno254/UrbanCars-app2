@@ -12,7 +12,7 @@ UrbanHire is a modern, single-page car hire application built with React, Tailwi
 - backend link
 - https://urbancars-app2.onrender.com
 - frontend link
-- urban-cars-app2-git-main-timothychemweno254s-projects.vercel.app
+- https://friendly-starship-1fea59.netlify.app/
 
 ---
 
