@@ -39,7 +39,7 @@ UrbanHire is a modern, single-page car hire application built with React, Tailwi
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/urbanhire.git
+git clone https://github.com/TimothyCemweno254/urbanhire.git
 cd carhire
 
 🙋‍♂️ Author
